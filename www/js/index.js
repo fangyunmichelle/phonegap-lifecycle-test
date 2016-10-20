@@ -39,3 +39,7 @@ var launched_count = 0;
 		resumed_count++;
 		updateDisplay();
     }
+var key="pen";
+var vaule="blue";
+window.localStorage.setItem(key,vaule);
+var value = window.localStorage.getItem(key);
